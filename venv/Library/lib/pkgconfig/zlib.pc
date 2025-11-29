@@ -1,0 +1,13 @@
+prefix=C:/Users/hkoli/OneDrive/Desktop/resume_projects/venv/Library
+exec_prefix=C:/Users/hkoli/OneDrive/Desktop/resume_projects/venv/Library
+libdir=C:/Users/hkoli/OneDrive/Desktop/resume_projects/venv/Library/lib
+sharedlibdir=C:/Users/hkoli/OneDrive/Desktop/resume_projects/venv/Library/lib
+includedir=C:/Users/hkoli/OneDrive/Desktop/resume_projects/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

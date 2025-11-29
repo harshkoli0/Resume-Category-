@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+PyPDF2
+python-docx
+tensorflow
+scikit-learn
+joblib
+matplotlib
+wordcloud
+seaborn
+regex
+nltk
