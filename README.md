@@ -1,4 +1,4 @@
-# 🧠 Resume Analyzer (ML + Streamlit)
+# 🧠 Resume Analyzer (DL + Streamlit)
 
 A complete Resume Analysis system built using Machine Learning, NLP, and Streamlit.
 This application allows users to paste or input raw resume text directly and automatically:
@@ -46,4 +46,5 @@ Outputs the exact skill block from the resume.
 ---
 
 ## 📁 Project Structure
+
 
