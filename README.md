@@ -11,6 +11,13 @@ This application allows users to paste or input raw resume text directly and aut
 
 ---
 
+🌐 Live App
+
+👉 Try it here:
+
+🔗 https://resume-category-git-mpqyjcdxpgwsxvpxs2v3np.streamlit.app/
+
+---
 ## 🚀 Features
 
 ### 🔍 1. Resume Category Prediction (Machine Learning)
@@ -46,5 +53,6 @@ Outputs the exact skill block from the resume.
 ---
 
 ## 📁 Project Structure
+
 
 
