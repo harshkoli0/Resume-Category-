@@ -52,7 +52,5 @@ Outputs the exact skill block from the resume.
 
 ---
 
-## 📁 Project Structure
-
 
 
