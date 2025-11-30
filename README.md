@@ -1,4 +1,4 @@
-# 🧠 Resume Analyzer (ML + Streamlit)
+# 🧠 Resume Analyzer (DL + Streamlit)
 
 A complete Resume Analysis system built using **Machine Learning**, **NLP**, and **Streamlit**.  
 This application allows users to upload resumes (PDF, DOCX, TXT) and automatically:
@@ -44,3 +44,4 @@ Outputs the exact skill block from the resume.
 - Cleaned text preview  
 
 ---
+
