@@ -1,59 +1,49 @@
-📄 Resume Analyzer (DL + Streamlit)
+# 🧠 Resume Analyzer (ML + Streamlit)
 
-An interactive Resume Analysis System built using Deep Learning, NLP, and Streamlit.
-This application allows users to paste resume text directly and automatically:
+A complete Resume Analysis system built using Machine Learning, NLP, and Streamlit.
+This application allows users to paste or input raw resume text directly and automatically:
 
-✔ Predict the Job Category using TF-IDF + LSTM
-✔ Extract the Technical Skills section
-✔ Display character count, word count, and unique words
-✔ Clean and preprocess resume text
-✔ Provide an easy-to-use Streamlit interface
+✔ Predict the **Job Category** using TF-IDF + LSTM  
+✔ Extract the **Technical Skills Section**  
+✔ Display **character count**, **word count**, and **unique words**  
+✔ Clean and preprocess resume text  
+✔ Provide a simple and interactive interface using Streamlit  
 
-🚀 Features
-🔍 1. Resume Category Prediction (Deep Learning)
+---
 
-TF-IDF feature extraction
+## 🚀 Features
 
-LSTM-based multi-class classification
+### 🔍 1. Resume Category Prediction (Machine Learning)
+- TF-IDF feature extraction  
+- LSTM-based multi-class classification  
+- Supports 20+ resume categories (Data Science, HR, Web Developer, DevOps, etc.)
+- Model files included:
+  - `resume_lstm_model.h5`
+  - `tfidf_vectorizer.pkl`
+  - `label_encoder.pkl`
 
-Supports 20+ job categories
-(Data Science, Python Developer, HR, Java Developer, Web Developer, DevOps, Testing, etc.)
+---
 
-Model files included:
+### 🛠 2. Technical Skills Section Extraction
+Automatically extracts the section containing skills by detecting headings such as:
 
-resume_lstm_model.h5
+- **Technical Skills**
+- **Skills**
+- **Tech Stack**
+- **Core Competencies**
+- **Areas of Expertise**
 
-tfidf_vectorizer.pkl
+Outputs the exact skill block from the resume.
 
-label_encoder.pkl
+---
 
-🛠 2. Technical Skills Section Extraction
+### 📊 3. Resume Text Analysis
+- Character count  
+- Word count  
+- Unique words  
+- Cleaned text preview  
 
-Automatically extracts ONLY the skills section by detecting headings like:
+---
 
-Technical Skills
-
-Skills
-
-Tech Stack
-
-Core Competencies
-
-Areas of Expertise
-
-✔ No PDF/DOCX text extractors
-✔ Works directly on plain text input
-✔ Fast regex-based extraction
-
-📊 3. Resume Text Analysis
-
-The app provides quick resume insights:
-
-Total character count
-
-Total word count
-
-Total unique words
-
-Cleaned resume preview
+## 📁 Project Structure
 
